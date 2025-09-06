@@ -21,7 +21,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - REACT_APP_API_URL=http://localhost:8000/api
+      - REACT_APP_API_URL = https://bytevault-0h2t.onrender.com/api
     depends_on:
       - backend
     restart: always
