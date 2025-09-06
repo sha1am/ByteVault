@@ -121,7 +121,7 @@ docker-compose up --build
 ## 🗄️ Project Structure
 
 ```
-file-hub/
+byte-vault/
 ├── backend/                # Django backend
 │   ├── files/             # Main application
 │   │   ├── models.py      # Data models

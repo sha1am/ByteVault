@@ -58,10 +58,10 @@ Django-based backend for the FortiFile application, providing a robust API for f
 
 ```bash
 # Build the image
-docker build -t file-hub-backend .
+docker build -t byte-vault-backend .
 
 # Run the container
-docker run -p 8000:8000 file-hub-backend
+docker run -p 8000:8000 byte-vault-backend
 ```
 
 ## 📁 Project Structure
