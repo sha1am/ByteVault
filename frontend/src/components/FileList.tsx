@@ -56,7 +56,7 @@ export const FileList: React.FC = () => {
         .toLowerCase()
         .includes(searchTerm.toLowerCase());
 
-      const matchesType = fileType ? file.file_type === fileType : true;
+      const matchesType = fileType? file.file_type.toLowerCase().includes(fileType.toLowerCase()): true;
 
       const matchesSize =
         (!minSize || file.size >= parseInt(minSize) * 1024) &&
